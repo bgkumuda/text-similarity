@@ -41,8 +41,8 @@ Reference: https://hub.docker.com/r/kumudabg/text-simililarity-service/tags
 			
 ## Steps to execute in terminal 1
 1. docker pull kumudabg/text-simililarity-service:1.0
-2. docker build -t text-simililarity-service:1.0 . (not required if no change made to the code after pulling the image from docker hub)
-3. docker run -p 5000:5000  text-simililarity-service:1.0
+2. docker build -t kumudabg/text-simililarity-service:1.0 . (not required if no change made to the code after pulling the image from docker hub)
+3. docker run -p 5000:5000 kumudabg/text-simililarity-service:1.0
 
 ## Steps to execute in terminal 2
 #### Compare the text 1 and 2
